@@ -33,12 +33,13 @@ a{
 .cart {
     text-align: right;
     margin-right: 30px;
+    width: 24px;
+    height: 24px;
 }
 
-.cart a {
-    color: #ffd700;
-    text-decoration: none;
-    font-weight: bold;
+#carro {
+    width: 24px;
+    height: 24px;
 }
 
 .productos {
