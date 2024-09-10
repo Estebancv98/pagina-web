@@ -3,6 +3,7 @@ body{
     max-width: 1200px;
     font-family: 'Lato';
     color: #333;
+    text-align: center;
 }
 
 .menu {
@@ -203,4 +204,19 @@ header{
 
 .hidden{
     display: none;
+}
+
+.redes img{
+    width: 35px;
+    margin: 10px;
+}
+.icon-wrapper {
+    position: absolute;
+    top: 10px; /* Ajusta según sea necesario */
+    left: 10px; /* Ajusta según sea necesario */
+}
+
+.icon {
+    width: 24px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: 24px;
 }
