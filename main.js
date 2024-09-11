@@ -26,13 +26,13 @@ const cartTotal = document.querySelector('.cart-total');
 
 productsList.addEventListener('click', e => {
 	if (e.target.classList.contains('btn-add-cart')) {
-		const product = e.target.closest('.item');  // Cambiado para seleccionar el contenedor .item
+		const product = e.target.closest('.item');
 
 		const infoProduct = {
 			quantity: 1,
 			title: product.querySelector('h2').textContent,
 			price: product.querySelector('p').textContent,
-			photo: product.querySelector('img').src  // Extrae correctamente el src
+			photo: product.querySelector('img').src
 		};
 
 		const exits = allProducts.some(
