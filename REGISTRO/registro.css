@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('multimedia/registrate.jpg');
+    background-image: url('multimedia-registro/registrate.jpg');
     background-size: cover; 
     background-position: center; 
     background-attachment: fixed; 
@@ -85,4 +85,19 @@ button#limpiar {
 button#guardar {
     background-color: #4CAF50;
     color: white;
+}
+
+.redes img{
+    width: 35px;
+    margin: 10px;
+}
+.icon-wrapper {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
 }
